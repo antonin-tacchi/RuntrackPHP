@@ -1,6 +1,4 @@
-
 <?php
-
 $data = [
     ["Type" => "A", "Nom" => "UN", "Valeur" => 1],
     ["Type" => "B", "Nom" => "DEUX", "Valeur" => 2],
