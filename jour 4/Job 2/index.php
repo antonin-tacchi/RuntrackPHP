@@ -24,8 +24,12 @@
 <?php
     $nombreArguments = 0;
     if (!empty($_GET)) {
+        echo "<h2> Parametre GET:</h2>";
+        echo "<table border='1'>";
+        echo "<tr><th>Nom</th><th>Valeur</th></tr>";
         foreach ($_GET as $cle => $valeur) {
             $nombreArguments++; 
+            echo "<tr><td>" . $cle . "</td><td>" . $valeur . "</td></tr>";
         }
     }
 
