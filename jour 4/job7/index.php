@@ -47,7 +47,7 @@
 
                 // Ajout des espaces à l'intérieur du toit
                 for ($j = 0; $j < $i * 2; $j++) {
-                    $line .= "_";
+                    $line .= "";
                 }
 
                 // Ajout du côté droit du toit "\"
