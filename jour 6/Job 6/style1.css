@@ -1,0 +1,68 @@
+body {
+    background: radial-gradient(circle, #1a237e, #0d47a1, #000000);
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Texture d'étoiles */
+}
+
+form {
+    padding: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(13, 71, 161, 0.8);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 50px rgba(0, 0, 255, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+form h2 {
+    font-size: 24px;
+    color: #ffeb3b;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ffeb3b;
+}
+
+button {
+    background: linear-gradient(90deg, #ff6f61, #ff4081);
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 105, 135, 0.4), 0 0 30px rgba(255, 105, 135, 0.2);
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(255, 105, 135, 0.6), 0 0 60px rgba(255, 105, 135, 0.3);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #42a5f5, 0 0 20px #42a5f5;
+}

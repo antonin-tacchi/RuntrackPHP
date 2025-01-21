@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to bottom, #020024, #090979, #1b003b);
+    font-family: 'Montserrat', sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Texture étoiles */
+}
+
+form {
+    padding: 40px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(28, 24, 47, 0.95);
+    box-shadow: 0 0 20px rgba(78, 42, 132, 0.7), 0 0 40px rgba(78, 42, 132, 0.5);
+    max-width: 450px;
+    text-align: center;
+}
+
+form h2 {
+    font-size: 24px;
+    color: #b388ff;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #b388ff;
+}
+
+button {
+    background: radial-gradient(circle, #9c27b0, #e91e63);
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s;
+    box-shadow: 0 0 15px rgba(156, 39, 176, 0.5), 0 0 30px rgba(233, 30, 99, 0.4);
+}
+
+button:hover {
+    box-shadow: 0 0 30px rgba(156, 39, 176, 0.7), 0 0 60px rgba(233, 30, 99, 0.5);
+    transform: scale(1.1);
+}
+
+input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 15px #673ab7, 0 0 30px #673ab7;
+}
+

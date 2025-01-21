@@ -6,7 +6,7 @@ function occurrences(string $str, string $char): int {
             $count++;
         }
     }
-    return $count;
+    return $count:
 }
 
 $str = "Bonjour";
