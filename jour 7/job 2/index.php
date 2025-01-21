@@ -5,10 +5,10 @@ if (isset($_COOKIE['nbvisites'])) {
 else {
     $nbvisites = 1;
 }
-setcookie('nbvisites', $nbvisites, time() + 365*24*3600);
+setcookie('nbvisites', $nbvisites, time() + 24*3600);
 
 if (isset($_POST['reset'])) {
-    setcookie('nbvisites', 0, time() + 365*24*3600);
+    setcookie('nbvisites', 0, time() + 24*3600);
     $nbvisites = 0;
 }
 
