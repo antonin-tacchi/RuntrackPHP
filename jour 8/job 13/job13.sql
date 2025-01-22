@@ -1,0 +1,1 @@
+SELECT avg(CAPACITE) AS "Capacite_moyenne" FROM salles;

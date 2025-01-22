@@ -1,0 +1,1 @@
+SELECT * FROM étudiant where NAISSANCE < '2007-01-22';

@@ -1,0 +1,1 @@
+SELECT NOM, CAPACITE FROM salles;

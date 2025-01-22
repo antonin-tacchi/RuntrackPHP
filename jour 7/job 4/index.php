@@ -32,7 +32,7 @@ if (isset($_POST['connexion'])) {
 <body>
     <?php if (isset($_COOKIE['prenom']) && !empty($_COOKIE['prenom'])): ?>
         <h1>Bonjour <?= $_COOKIE['prenom'] ?> !</h1>
-        <form method="post">
+        <form action="" method="post">
             <button type="submit" name="deco">Déconnexion</button>
         </form>
     <?php else: ?>
