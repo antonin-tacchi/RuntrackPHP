@@ -1,1 +1,1 @@
-SELECT PRENOM, NOM, NAISSANCE FROM étudiant where SEXE = Femme;
+SELECT PRENOM, NOM, NAISSANCE FROM étudiant where SEXE = "femme";

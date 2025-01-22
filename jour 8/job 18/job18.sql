@@ -3,7 +3,7 @@ SELECT
     salles.NOM AS "Biggest Room", 
     salles.capacite
 FROM salles
-JOIN etages ON salles.id_étage = étage.id
+JOIN étage ON salles.id_etage = étage.id
 WHERE salles.capacite = (
     SELECT MAX(capacite)
     FROM salles
